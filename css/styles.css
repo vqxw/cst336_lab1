@@ -1,10 +1,13 @@
 
 
 body {
-    background-color: black;
-    color: gray;
+    background-color: #007acc;
+    /*color: gray;*/
 }
 
+header {
+    color: #b3d1ff;
+}
 header, main, nav, footer, #content {
     text-align: center;
 }
@@ -20,58 +23,82 @@ nav a {
 nav a:hover{
     border-bottom: 2px orange solid;
     font-size: 2em;
-    transition: .9s;
+    transition: 0s;
 }
 
-#me {
+figure, div {
     float: left;
-    width: 100px;
 }
 
-#welcomeText {
-    float: right;
+#me, #welcomeText {
+    float: left;
+    width: 43%;
 }
+/*#me {*/
+/*    float: left;*/
+/*    width: 100px;*/
+/*}*/
+
+/*#welcomeText {*/
+/*    float: right;*/
+/*}*/
 
 #me img {
-    width: 100%;
+    width: 50%;
+    padding-left: 330px;
+    
 }
 
 footer {
     clear: both;
+    font-size: 13px;
+    color: gold;
+}
+
+#welcomeText {
+    text-align: left;
+    color: white;
 }
 
 table {
     margin: 0px auto;
+    /*padding-left: 330px;*/
+    float: inherit;
 }
 
 td {
     padding-right: 10px;
     font-size: 1.3em;
+    color: white;
 }
 
 td strong {
-    color: orange;
+    color: white;
 }
 
 #table-header {
-    background-color: #351a00;
+    background-color: #29a329;
 }
 
 .table-row {
-    background-color: #753900;
+    background-color: #47d147;
 }
 
 ul {
     text-align: left;
-    padding-left: 200px;
+    padding-left: 500px;
 }
 
 .hobby {
-    color: yellow !important;
+    color: lightgreen !important;
 }
 
 h1 {
-    font-family: 'Rametto One';
+    font-family: 'Raleway', sans-serif;
     font-size: 4em;
     margin-bottom: 0px;
+}
+
+#content {
+    float: inherit;
 }
